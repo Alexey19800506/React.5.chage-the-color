@@ -4,7 +4,7 @@ const RED = '#f00';
 const GREEN = '#0f0';
 const BLUE = '#00f';
 
-class Counter extends React.Component {
+class Colors extends React.Component {
  
 setBodyColor = color => {
     document.body.style.backgroundColor = color;
@@ -21,5 +21,5 @@ setBodyColor = color => {
     }
 }
    
-export default Counter;
+export default Colors;
 
